@@ -98,6 +98,52 @@ This project is for **academic and research purposes** under open collaboration.
 
 ---
 
+# 🕉️ Pali Language NLP Project
+
+## 📘 Overview
+This project aims to process and analyze ancient **Pali language texts** using modern **Natural Language Processing (NLP)** techniques.  
+The main goal is to clean, structure, and interpret traditional Pali scriptures and make them computationally readable for research, linguistic analysis, and digital preservation.
+
+---
+
+## ⚙️ Task 1 — Sāmaññaphala Sutta (सामञ्‍ञफलसुत्तं)
+
+### 📜 Input Sample (Devanagari)
+> १५०. एवं मे सुतं – एकं समयं भगवा राजगहे विहरति जीवकस्स कोमारभच्‍चस्स अम्बवने महता भिक्खुसङ्घेन सद्धिं अड्ढतेळसेहि भिक्खुसतेहि।  
+> ...  
+> १५६. अञ्‍ञतरोपि खो राजामच्‍चो राजानं मागधं अजातसत्तुं वेदेहिपुत्तं एतदवोच – ‘‘अयं, देव, निगण्ठो नाटपुत्तो नाथपुत्तो (सी॰), नातपुत्तो (पी॰) सङ्घी चेव गणी च गणाचरियो च ञातो यसस्सी तित्थकरो साधुसम्मतो बहुजनस्स रत्तञ्‍ञू चिरपब्बजितो अद्धगतो वयोअनुप्पत्तो। तं देवो निगण्ठं नाटपुत्तं पयिरुपासतु। अप्पेव नाम देवस्स निगण्ठं नाटपुत्तं पयिरुपासतो चित्तं पसीदेय्या’’ति। एवं वुत्ते, राजा मागधो अजातसत्तु वेदेहिपुत्तो तुण्ही अहोसि।
+
+---
+
+### 🧾 Goals for Task 1
+1. **Text Normalization**
+   - Remove variant markers like `(सी॰)`, `(स्या॰)`, `(पी॰)`  
+   - Handle inconsistent spellings (e.g., "नातपुत्तो" vs "नाथपुत्तो")  
+   - Ensure uniform Unicode normalization (NFC form)
+2. **Sentence Segmentation**
+   - Split the paragraph into clean, single-sentence units for analysis
+3. **Tokenization**
+   - Break text into words, preserving Devanagari integrity  
+   - Create a token list for further linguistic tagging
+4. **Cleaning and Structuring**
+   - Remove numbering (like `१५०.`) but store them as metadata  
+   - Maintain a clean corpus for morphological analysis
+5. **Output**
+   - `cleaned_samanaphala.txt` (plain cleaned text)  
+   - `tokens_samanaphala.json` (tokenized data)
+
+---
+
+## 🧠 Next Steps
+- Implement text normalization using **Python + Regex**
+- Build a tokenizer suited for **Pali (Devanagari script)**
+- Create structured data outputs for NLP pipeline
+
+---
+
+## 🗂️ Folder Update
+
+
 ## 👤 Author
 **Nayan Khuje**  
 MSc Computer Science | Pali NLP Researcher | AI & Data Science Enthusiast
