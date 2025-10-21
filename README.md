@@ -90,3 +90,14 @@ Goals:
 This project is for **academic and research purposes** under open collaboration.
 
 
+## 🧩 Tools
+- **Python 3.x**
+- **Regex (re module)**
+- **Indic NLP Library** *(for Devanagari processing)*
+- **NLTK / spaCy (custom tokenizer)**
+
+---
+
+## 👤 Author
+**Nayan Khuje**  
+MSc Computer Science | Pali NLP Researcher | AI & Data Science Enthusiast
