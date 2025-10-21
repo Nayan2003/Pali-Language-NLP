@@ -39,7 +39,7 @@ The main goal is to clean, structure, and interpret traditional Pali scriptures 
 ---
 
 ## 🗂️ Folder Structure
-
+'''
 Pali-Language-NLP/
 │
 ├── data/
@@ -56,7 +56,7 @@ Pali-Language-NLP/
 │
 ├── README.md
 └── requirements.txt
-
+'''
 
 ---
 
@@ -142,7 +142,25 @@ The main goal is to clean, structure, and interpret traditional Pali scriptures 
 ---
 
 ## 🗂️ Folder Update
-
+'''
+Pali-Language-NLP/
+│
+├── data/
+│ ├── raw_texts/
+│ │ └── samanaphala_raw.txt
+│ ├── cleaned_texts/
+│ │ └── samanaphala_cleaned.txt
+│
+├── scripts/
+│ ├── normalize_text.py
+│ ├── tokenize_pali.py
+│
+├── outputs/
+│ ├── samanaphala_tokens.json
+│
+├── README.md
+└── requirements.txt
+'''
 
 ## 👤 Author
 **Nayan Khuje**  
