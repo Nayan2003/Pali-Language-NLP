@@ -59,7 +59,7 @@ Pali-Language-NLP/
 '''
 
 ---
-
+6
 ## 🧾 Current Focus
 **Task 1:** Working on _Sāmaññaphala Sutta_ text.  
 Goals:
@@ -75,7 +75,6 @@ Goals:
 **Research Focus:** Pali NLP, Linguistic Data Processing, and Semantic Structuring
 
 ---
-
 ## 📅 Timeline
 | Phase | Task | Duration |
 |--------|------|-----------|
